@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Travel Journal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app displays a static web page of a travel journal. Data hardcoded into a javascript file is mapped into a reusable component to display the information.
+
+## What I learned
+
+- Making reusable components
+- Passing and receiving props
+- Destructuring props
+- Mapping Components
 
 ## Available Scripts
 
