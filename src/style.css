@@ -1,0 +1,159 @@
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #fff;
+}
+
+/*------------------------------------*\
+#TYPOGRAPHY
+\*------------------------------------*/
+
+body {
+  font-size: 0.64rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 1.5625rem;
+}
+
+h2 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:not(.btn):hover,
+a:not(.btn):focus {
+  text-decoration: underline;
+  opacity: 0.95;
+}
+
+:focus-visible {
+  outline: 4px solid orange;
+}
+
+/*------------------------------------*\
+#NAV BAR
+\*------------------------------------*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f55a5a;
+  height: 55px;
+  color: #fff;
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 14.46px;
+  line-height: 18px;
+  line-height: 100%;
+  align-items: left;
+  vertical-align: top;
+  letter-spacing: -7.5%;
+}
+
+.title {
+  margin: 5px;
+}
+
+/*------------------------------------*\
+#CARD
+\*------------------------------------*/
+.card--container {
+  display: flex;
+  padding: 40px;
+}
+
+.picture {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-left: 22px;
+}
+
+.pre--country {
+  display: flex;
+  flex: row;
+}
+
+.country {
+  margin-left: 6px;
+
+  font-family: Inter;
+  font-style: Regular;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  line-height: 100%;
+  align-items: Left;
+  vertical-align: Top;
+  letter-spacing: 2px;
+}
+
+a {
+  margin-left: 15px;
+  text-decoration: underline;
+  line-height: 12px;
+  line-height: 100%;
+
+  color: #918e9b;
+}
+
+.dates {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  padding-top: 3px;
+  padding-bottom: 7px;
+}
+
+.description {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  max-width: 350px;
+}
